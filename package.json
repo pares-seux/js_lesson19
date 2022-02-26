@@ -1,0 +1,29 @@
+{
+  "name": "lesson-19-part-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --mode=development",
+    "start": "webpack serve --mode=development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pares-seux/js_lesson19.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pares-seux/js_lesson19/issues"
+  },
+  "homepage": "https://github.com/pares-seux/js_lesson19#readme",
+  "dependencies": {
+    "webpack-dev-server": "^4.7.4"
+  }
+}
